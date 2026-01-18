@@ -1,13 +1,6 @@
 """
-LogisticsController-Pinnacle — Full Loop + Starlink Gel Dispatch
+LogisticsController-Pinnacle — Full Loop + Pyrolysis Recycle Integration
 MercyLogistics Pinnacle Ultramasterpiece — Jan 18 2026
-
-Complete cradle-to-cradle controller:
-- Tetra-edible MercyGel production
-- Drone fleet orchestration (Starlink burst)
-- Robot hand-off
-- Pyrolysis recycle loop
-- Gel drop commands (in-game + real-world)
 """
 
 from core.gel_printer import GelPrinter
@@ -28,16 +21,22 @@ class LogisticsController:
         print_step = self.printer.print_sachet(flavor, vitamins)
         drone_step = self.drone.deploy()
         robot_step = self.robot.transfer("sachet-001")
-        recycle_step = self.recycle.close_loop()
+        recycle_step = self.recycle.close_loop()  # Auto reclaim on cycle
         return f"Cycle complete: {print_step} → {drone_step} → {robot_step} → {recycle_step}"
     
     def mercy_gel_drop(self, player_id: str, destination: dict, flavor: str = "butter"):
         status = self.drone_fleet.command_drop(0, destination, f"MercyGel-{flavor}")
+        # Trigger reclaim simulation on delivery
+        self.recycle.collect_fragment(f"gel_{player_id}")
         return f"{status} — {flavor} abundance delivered."
     
     def boss_reward_gel_drop(self, player_id: str, destination: dict, flavor: str = "butter"):
         status = self.drone_fleet.command_drop(0, destination, f"MercyGel-{flavor}")
+        self.recycle.collect_fragment(f"boss_gel_{player_id}")
         return f"{status} — boss reward {flavor} dispatched — joy restored."
     
+    def reclaim_status(self):
+        return self.recycle.status()
+
     def fleet_status(self):
         return self.drone_fleet.telemetry_sync()
