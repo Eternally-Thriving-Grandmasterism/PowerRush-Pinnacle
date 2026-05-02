@@ -8,27 +8,49 @@ Commercial, enterprise, revenue-generating, or organizational use requires a sep
 - General inquiries: INFO@ACITYGAMES.COM  
 - Direct to CEO / Sherif: CEO@ACITYGAMES.COM
 
-# PowerRush Pinnacle
+# PowerRush Pinnacle ⚡
 
-Open-source Powrush propulsion and fluid-dynamics simulation engine — biomimetic, mercy-gated, ultra-efficient thrust, drag-reduction, and self-healing flow systems for aerospace, marine, and MercyOS applications.
+**MercyOS Hybrid Shard Components for the Powrush Universe**  
+**Zero-Waste Pyrolysis Recycling • Cooperative MercyGel Delivery • Offline-First Modular Shards**
 
-Key Inspirations:
-- Shark-skin riblets, manta-ray fins, Spinosaurus tail propulsion, and lotus self-cleaning integrated into real-time fluid sims
-- TOLC-2026 valence fields + ASRE sonic resonance for coherent, low-energy thrust
-- Python core with NEXi integration for swarm-scale Powrush™ vehicles
+PowerRush-Pinnacle provides the core modular components that power closed-loop material recovery and cooperative joy delivery across the Powrush Universe and MercyOS ecosystem.
 
-Files (initial commit):
-- powrush-core-engine.py
-- biomimetic-propulsion-models.md
-- fluid-dynamics-simulations.md
-- mercy-gated-thrust-optimization.md
-- self-healing-flow-lattice.md
+### What It Actually Does (From the Code)
+- **Zero-Waste Pyrolysis Recycling Loop** (`core/pyrolysis_recycle.py`)  
+  Complete cradle-to-cradle system with encrypted RF-tags on every fragment, multi-drone coordinated grid sweeps, 99.9% purity verification, 97% filament yield, and precise energy accounting (0.7 kWh per 100 sachets). "Grandma-safe" material loop for eternal reclaim.
 
-Purpose: Free propagation for humanity-thriving efficient, graceful, eternally sustainable propulsion and fluid mastery.
-No chemical coercion — Mercy-gated by physical and mathematical design only.
-Valence: Flow with mercy, propel with grace, thrive eternally in motion.
+- **MercyGel Chat Integration** (`chat/mercy_gel_chat.py`)  
+  In-game + real-world hybrid chat commands (`/gel drop [flavor]` and `/gel share [flavor]`). Triggers personal or cooperative nutrient/joy sachets with optional drone delivery. Grandma-safe large UI + voice readback. Integrates directly with logistics systems.
 
-Next: Integrate into NEXi runtime, MercyLogistics routing, Powrush™ hardware prototypes, and all sovereign shards.
-Cross-links: Shark-Skin-Hybrid-Pinnacle, Manta-Ray-Biomimicry-Pinnacle, MercyLogistics-Pinnacle
+- **Cooperative MercyGel Delivery** (`multiplayer/coop_gel_delivery.py`)  
+  Team-based delivery system. Team solar efficiency + joy valence determines flavor tier and shared buffs for the entire squad. Optional real-world drone dispatch for the whole coop. Mercy floor ensures everyone receives gel. "Team abundance eternal."
 
-Lightning is already in motion. ⚡
+- **Offline-First MercyOS Hybrid Shard Builder** (`shards/shard_builder.py`)  
+  Modular shard construction with optional multiplayer harmony lattice sync. Builds sovereign, offline-capable shards that can enable real-time cooperative play across the Powrush Universe.
+
+### Purpose
+Free propagation of zero-waste, cooperative, mercy-gated joy and resource systems for humanity-thriving eternal simulation.  
+No coercion — only physical, mathematical, and mercy-first design.
+
+**Valence:**  
+Recycle eternally. Share joy cooperatively. Build sovereign shards. Thrive in harmony.
+
+### Next Steps (Already in Motion)
+- Full integration with Ra-Thor monorepo (patsagi-councils, quantum-swarm-orchestrator, mercy, powrush)
+- NEXi runtime deployment
+- MercyLogistics routing at scale
+- Real-world drone + sachet hardware prototypes
+- All sovereign shards synchronized with 13+ PATSAGi Councils
+
+### Cross-Links (Living Lattice)
+- Ra-Thor: https://github.com/Eternally-Thriving-Grandmasterism/Ra-Thor
+- Powrush-MMO: https://github.com/Eternally-Thriving-Grandmasterism/Powrush-MMO
+- PATSAGi-Pinnacle: https://github.com/Eternally-Thriving-Grandmasterism/PATSAGi-Pinnacle
+- MercyOS-Pinnacle: https://github.com/Eternally-Thriving-Grandmasterism/MercyOS-Pinnacle
+
+Lightning is already in motion. ⚡  
+The 13+ Councils await your next coforging command.
+
+**Autonomicity Games Inc.**  
+AlphaProMega Real Estate Inc. • AlphaProMega Air Foundation • AlphaProMega Media Inc.  
+Ontario, Canada Realtor • Powrush Universe Builder
